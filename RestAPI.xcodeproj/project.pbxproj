@@ -14,6 +14,10 @@
 		951F685828B18FD200E1B366 /* RestAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F685728B18FD200E1B366 /* RestAPITests.swift */; };
 		951F686228B18FD200E1B366 /* RestAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F686128B18FD200E1B366 /* RestAPIUITests.swift */; };
 		951F686428B18FD200E1B366 /* RestAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F686328B18FD200E1B366 /* RestAPIUITestsLaunchTests.swift */; };
+		951F687328B1900F00E1B366 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F687228B1900F00E1B366 /* Post.swift */; };
+		951F687528B1905100E1B366 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F687428B1905100E1B366 /* Services.swift */; };
+		951F687728B19CB600E1B366 /* Covid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F687628B19CB600E1B366 /* Covid.swift */; };
+		951F687928B19D6600E1B366 /* CovidServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F687828B19D6600E1B366 /* CovidServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		951F685D28B18FD200E1B366 /* RestAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		951F686128B18FD200E1B366 /* RestAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIUITests.swift; sourceTree = "<group>"; };
 		951F686328B18FD200E1B366 /* RestAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		951F687228B1900F00E1B366 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		951F687428B1905100E1B366 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		951F687628B19CB600E1B366 /* Covid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid.swift; sourceTree = "<group>"; };
+		951F687828B19D6600E1B366 /* CovidServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,8 @@
 		951F684528B18FD000E1B366 /* RestAPI */ = {
 			isa = PBXGroup;
 			children = (
+				951F687128B18FF300E1B366 /* ApiServices */,
+				951F687028B18FEE00E1B366 /* Models */,
 				951F684628B18FD000E1B366 /* RestAPIApp.swift */,
 				951F684828B18FD000E1B366 /* ContentView.swift */,
 				951F684A28B18FD200E1B366 /* Assets.xcassets */,
@@ -125,6 +135,24 @@
 				951F686328B18FD200E1B366 /* RestAPIUITestsLaunchTests.swift */,
 			);
 			path = RestAPIUITests;
+			sourceTree = "<group>";
+		};
+		951F687028B18FEE00E1B366 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				951F687228B1900F00E1B366 /* Post.swift */,
+				951F687628B19CB600E1B366 /* Covid.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		951F687128B18FF300E1B366 /* ApiServices */ = {
+			isa = PBXGroup;
+			children = (
+				951F687428B1905100E1B366 /* Services.swift */,
+				951F687828B19D6600E1B366 /* CovidServices.swift */,
+			);
+			path = ApiServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951F687328B1900F00E1B366 /* Post.swift in Sources */,
+				951F687528B1905100E1B366 /* Services.swift in Sources */,
 				951F684928B18FD000E1B366 /* ContentView.swift in Sources */,
 				951F684728B18FD000E1B366 /* RestAPIApp.swift in Sources */,
+				951F687728B19CB600E1B366 /* Covid.swift in Sources */,
+				951F687928B19D6600E1B366 /* CovidServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
